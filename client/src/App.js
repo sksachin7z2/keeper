@@ -17,7 +17,7 @@ import Signup from './components/Signup';
 
 function App() {
   // const host="http://localhost:5000";
-  const host="https://inotebook-prac.herokuapp.com";
+  const host="https://memobook.herokuapp.com";
   const[alert,setAlert]=useState(null);
   const showAlert=(message,type)=>{
     setAlert({
