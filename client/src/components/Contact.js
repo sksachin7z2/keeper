@@ -19,8 +19,8 @@ function Contact() {
     }, [vantaEffect]);
     return (
         
-<div className='App'>
-      <div className="card mb-3" style={{backgroundColor:" rgb(0, 31, 40)",maxWidth:"72vw"}}>
+<div className='App1'>
+      <div className="card mb-3" >
       <div className="row g-0">
         <div ref={myRef}  className="col-md-4 d-flex">
          

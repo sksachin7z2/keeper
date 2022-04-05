@@ -3,9 +3,7 @@ import aboutme from './aboutme.jpg'
 import facebook from './facebook.png'
 import linkedin from './linkedin.png'
 import github from './github.png'
-import textutis from './textutils.JPG'
-import iNotebook from './iNotebook.JPG'
-import newsmonkey from './newsmonkey.JPG'
+
 import Typewriter from 'typewriter-effect';
 function Aboutcard() {
     return (
@@ -44,31 +42,7 @@ function Aboutcard() {
   </div>
 </div>
 </div>
-<h2 style={{textAlign:"center",color:"#16b08d",fontFamily:"monospace",fontWeight:"bolder"}}>My Projects</h2>
-<div data-aos="fade-left" className="card mb-3 my-3" style={{maxWidth:"72vw",backgroundColor:"black"}}>
-  <img src={textutis}  className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title darkmode">Textutils&emsp;<a href="https://mytextutils-enhance.netlify.app/" target="_blank" rel="noopener noreferrer"><i style={{color:"aquamarine"}} className="fa fa-external-link " ></i></a></h5>
-    <p className="card-text darkmode">Textutils is a simple text editor enabled with email extractor made with javascript</p>
-   
-  </div>
-</div>
-<div data-aos="fade-right" className="card mb-3 my-3" style={{maxWidth:"72vw",backgroundColor:"black"}}>
-  <img src={iNotebook}  className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title darkmode">iNotebook&emsp;<a href="https://inotebook-prac.netlify.app/" target="_blank" rel="noopener noreferrer"><i style={{color:"aquamarine"}} className="fa fa-external-link " ></i></a></h5>
-    <p className="card-text darkmode">iNotebook is a api enabled note saving utility where user can store their notes.It is build with MERN stack</p>
-   
-  </div>
-</div>
-<div data-aos="fade-left" className="card mb-3 my-3" style={{maxWidth:"72vw",backgroundColor:"black"}}>
-  <img src={newsmonkey}  className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title darkmode">NewsMonkey &emsp;</h5>
-    <p className="card-text darkmode text-center">Newsmonkey is a news fetching utility build with news api to get the latest news on category like science, bussiness, sports, health etc</p>
-    
-  </div>
-</div>
+
      </>
     )
 }

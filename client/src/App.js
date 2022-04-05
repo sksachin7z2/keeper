@@ -13,7 +13,7 @@ import NoteState from './context/notes/NoteState';
 import  Alert  from './components/Alert';
 import Login from './components/Login';
 import Signup from './components/Signup';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 
 function App() {
   // const host="http://localhost:5000";
@@ -39,7 +39,7 @@ function App() {
           <Route exact path="/" key="home" element={<Home showAlert={showAlert}/>}/>
           <Route exact path="/signup" key="signup" element={<Signup host={host} showAlert={showAlert}/>}/>
           <Route exact path="/login" key="login" element={<Login host={host} showAlert={showAlert}/>}/>
-          <Route exact path="/contact" key="contact" element={<Contact showAlert={showAlert}/>}/>
+          {/* <Route exact path="/contact" key="contact" element={<Contact showAlert={showAlert}/>}/> */}
       
           <Route exact path="/about"  key="about" element={<About/>}/>
 

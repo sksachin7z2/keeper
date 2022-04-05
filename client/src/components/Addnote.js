@@ -22,7 +22,7 @@ import Spinner from './Spinner';
     return (
        
               <div className="container my-3">
-           <h2 className='darkmode'>Add a Note</h2> 
+           <h2 className=''>Add a Note</h2> 
            <LoadingBar
         color='#f11946'
        height={4}
@@ -31,15 +31,15 @@ import Spinner from './Spinner';
       />
            <form>
   <div className="mb-0">
-    <label htmlFor="title" className="form-label darkmode">Title</label>
+    <label htmlFor="title" className="form-label ">Title</label>
     <input  type="text" className="form-control" id="title" value={note.title} name="title" aria-describedby="emailHelp"onChange={onchange} minLength={2} required/>
     
   </div>
   <div className="mb-3">
     
-    <label htmlFor="description" className="form-label darkmode ">Description</label>
+    <label htmlFor="description" className="form-label  ">Description</label>
     <textarea name="description" id="description" cols="30" rows="10"  value={note.description} onChange={onchange} minLength={2} required/>
-    <label htmlFor="tag" className="form-label darkmode">Tag</label>
+    <label htmlFor="tag" className="form-label ">Tag</label>
     <input  type="text" className="form-control" id="tag" value={note.tag} name="tag" onChange={onchange}/>
   </div>
   

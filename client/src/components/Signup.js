@@ -52,25 +52,25 @@ const Signup = (props) => {
          { loading &&<Spinner/>}
             <form onSubmit={handleSubmit}>
   <div className="form-group">
-    <label className='darkmode' htmlFor="name">Name</label>
+    <label className='' htmlFor="name">Name</label>
     <input type="text" className="form-control" id="name" name="name"  onChange={onchange} aria-describedby="emailHelp" minLength={3}  required/>
    
   </div>
   <div className="form-group">
-    <label className='darkmode' htmlFor="email">Email address</label>
+    <label className='' htmlFor="email">Email address</label>
     <input type="email" className="form-control" id="email" name="email" onChange={onchange} aria-describedby="emailHelp" required/>
    
   </div>
   <div className="form-group">
-    <label className='darkmode' htmlFor="password">Password</label>
+    <label className='' htmlFor="password">Password</label>
     <input type="password" className="form-control" id="password" onChange={onchange} name="password"  minLength={5} required/>
   </div>
   <div className="form-group">
-    <label className='darkmode' htmlFor="password">Confirm Password</label>
+    <label className='' htmlFor="password">Confirm Password</label>
     <input type="password" className="form-control" id="cpassword"  onChange={onchange} name="cpassword"  minLength={5} required/>
   </div>
+  <div className="text-center"><button type="submit" className="btn btn-primary my-3 ">Submit</button></div>
   
-  <button type="submit" className="btn btn-primary my-3">Submit</button>
 </form>
         </div>
     )

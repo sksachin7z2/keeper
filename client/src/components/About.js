@@ -46,10 +46,10 @@ function About() {
               fontWeight: "bolder",
             }}
           >
-            iNotebook
+            Memobook
           </h1>
           <p style={{ textAlign: "center" }}>
-            iNotebook is Web-app where you can save your personal notes in safe
+           Memobook is Web-app where you can save your personal notes in safe
             and secure way.
           </p>
         </div>
@@ -68,7 +68,7 @@ function About() {
         style={{ height: "30vh", backgroundColor: "black", marginTop: "5vh" }}
       >
         <div className="container">
-          <h3 style={{ color: "gray", paddingTop: "5vh" }}>iNotebook</h3>
+          <h3 style={{ color: "gray", paddingTop: "5vh" }}>Memobook</h3>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
           facilis sunt adipisci! Voluptate itaque sed unde autem repellat quasi
           eius vero voluptates, delectus sit veniam tempora cupiditate
